@@ -42,7 +42,7 @@ I developed an R Shiny app that assists field engineers choose the best parts fo
 ## Project Overview:
 | Work Stream | Project Title | High Level Description | Type | Indicative business value | Initial timescale | Long Term Goal | Date Raised |
 | -----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
-| For the Customer | Predictive Maintenance | Automation  | Production | £200k per annum | 5 months | Assistanced to all field engineers replacing and ordering parts for CHB boilers| '21 |
+| For the Customer | Predictive Maintenance | Prevention  | Production | £200k per annum | 5 months | Assistance to field engineers replacing and ordering parts for CHB boilers| '21 |
 
 ## Initial MVP Breakdown:
 - MVP 1: Produce time to failure for a sample of parts
