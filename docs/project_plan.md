@@ -78,9 +78,9 @@ _________________________
 | Item | Details | Notes / Mitigation (Optional) |
 | -----------: | :-----------: | :-----------: | 
 | Data location/s identified | ✔️ | [comment] |
-| Data location/s accessible | ✔️ | Accessible through AWS Redshift |
+| Data location/s accessible | ✔️ | Accessible through joins on 2 databases |
 | Labour resource needed (eg # Data Scientists) | 1 x Lead, 2 x Data Scientist |  [-] |
-| Technical Resource needed () | R Shiny, SparklyR | [-] |
+| Technical Resource needed () | R Shiny / SparklyR | [-] |
 | Technical Skillset required | Association Rule Mining / Time to Failure  | [-] |
 | Personal/Sensitive Data Used | ✔️ | Data obviscated and stored in locked down container  |
 | Privacy Impact Assessment Required | ✔️ | PIA Ref: ****|
@@ -93,25 +93,22 @@ _________________________
 **Project Intent : -**  
 ****
 
-- This project was born from the understanding that HIVE and Net Zero would need a strategy to deal with increased demand from heat pumps and Net Zero drive
-- Contact costs for HIVE were increasing year on year despite a decline in sales and product purchases
-- Only 30% of customers are repeat contact customers , this gives scope to automate wrap notes and in some case remove them all together
-- Summarise webchat transcripts & use summary as a replacement for webchat wrap notes.
+- This project was born from the understanding that British Gas have experienced an increased number of repeat breakdowns and it is not clear what is causing this
+- There is a need to predict when customers will have a breakdown - using a first principles approach, a breakdown takes place when a part in a boiler breaks down
+- By performing time to failure on parts in a boiler, I can not only predict when a boiler will fail (% probability) but prevent it from taking place and thus prevent inbound customer contact, keep our customers happy and prevent/reduce breakdown appointment backlogs.
 
 **Business value: -**  
 ****
 
-- Call centres agents no longer need to spond time writing up notes after a webchat conversation
-- Time saved eliminating webchat wrap notes is £200k per annum
+The business was able to make better procurement decisions, negotiate with suppliers and claim back costs for parts still within warranty period. The part associations and refurbished analysis prevented customer inbound contact and repeat visits by our engineers. This creates a cycle, allowing for more engineer capacity in the field to better serve our customers.
 
 ****
 
 ## Project Results:
 
 
-- Removal of webchat wrap notes
-- £200k savings per annum
-- Presented to Director of Hive and senior leadership
+I developed an R Shiny app that assists field engineers in choosing the best parts for repairs, whilst at the customers property, to enhance customer satisfaction. The app presented at the highest 'Services & Logistics Management' meetings influenced business decisions on the procurement and installation of original parts, reducing repeat appointments and boosting customer NPS.
+
 
 ****
 
